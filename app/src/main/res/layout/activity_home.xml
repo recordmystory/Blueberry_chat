@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home.HomeActivity">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/HomeFragment_navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaa1E4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/HomeFragment_year_month"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:text="2022년 11월"
+            android:textColor="@color/white"
+            android:background="#00FF0000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+            />
+
+
+
+        <Button
+            android:id="@+id/HomeFragment_btn_write"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_baseline_create_24" />
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/shadow"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homefragment_friend_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/round_shadow"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/HomeFragment_imageview1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:background="@drawable/round_plus"
+                />
+
+            <Button
+                android:id="@+id/HomeFragment_btn_friend_add"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_baseline_add_24" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homefragment_feed_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

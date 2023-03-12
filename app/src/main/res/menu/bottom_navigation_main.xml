@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="홈"/>
+    <item
+        android:id="@+id/action_calendar"
+        android:icon="@drawable/ic_outline_calendar_month_24"
+        android:title="캘린더"/>
+    <item
+        android:id="@+id/action_textsms"
+        android:icon="@drawable/ic_outline_textsms_24"
+        android:title="채팅"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="설정"/>
+</menu>

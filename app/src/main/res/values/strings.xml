@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">블루베리</string>
+    <string name="rc_color">splash_background</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="setting_string1">
+        내 정보
+    </string>
+
+    <string name="setting_string2">
+        공지
+    </string>
+
+    <string name="setting_string3">
+        문의
+    </string>
+
+    <string name="setting_string4">
+        버전
+    </string>
+
+    <string name="setting_string5">
+        이름\n\t\t\t블루베리
+    </string>
+
+    <string name="setting_string6">
+        이메일\n\t\t\tblueberry@baewha.com
+    </string>
+
+
+    <string name="setting_string7">
+        생년월일\n\t\t\t010913
+    </string>
+
+
+    <string name="setting_string8">
+        로그아웃
+    </string>
+
+    <string name="setting_string9">
+        회원탈퇴
+    </string>
+
+</resources>
